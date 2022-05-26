@@ -19,7 +19,7 @@ process.stdin.on('end', function() {
 function printTable(n){
     let i;
     let temp;
-    for(i=1; i<=10, i++){
+    for(i=1; i<=10; i++){
         temp = n * i;
         console.log(n + ' x ' + i + ' = ' + temp)
     }
