@@ -28,10 +28,19 @@ function readLine() {
  * The function is expected to return an INTEGER.
  * The function accepts INTEGER n as parameter.
  */
+function processData(input) {
+    //Enter your code here
+    var N = parseInt(input),
+        num = 1;
 
-function factorial(n) {
-    // Write your code here
-
+    function factorial(N){
+        if (N > 1){
+            num = num * N;
+            factorial(N-1);
+        }
+    }
+    factorial(N);
+    console.log(num);
 }
 
 function main() {
