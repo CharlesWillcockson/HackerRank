@@ -54,3 +54,4 @@ function performOperation(secondInteger, secondDecimal, secondString) {
     console.log(firstString + secondString);
 }
 
+// I have COVID and I am only adding this to get a green square honestly.  I can't think straight
