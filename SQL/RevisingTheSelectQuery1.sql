@@ -85,3 +85,9 @@ WHERE NOT (city LIKE 'A%' OR city LIKE 'E%' OR city LIKE 'I%' OR city LIKE 'O%' 
 
 SELECT distinct city FROM station
 WHERE NOT (city LIKE 'A%' OR city LIKE 'E%' OR city LIKE 'I%' OR city LIKE 'O%' OR city LIKE 'U%') AND not (city LIKE '%a' OR city LIKE '%e' OR city LIKE '%i' OR city LIKE '%o' OR city LIKE '%u');
+
+# Exercise 17
+
+SELECT name FROM students
+WHERE Marks > 75
+ORDER BY substr(name, LENGTH(name)-2, 3), id;
