@@ -51,3 +51,7 @@ FROM station
 ORDER BY l asc, c asc
 LIMIT 1;
 
+# exercise 10
+
+SELECT distinct city from station
+WHERE city LIKE 'A%' OR city LIKE 'E%' OR city LIKE 'I%' OR city LIKE 'O%' OR city LIKE 'U%';
