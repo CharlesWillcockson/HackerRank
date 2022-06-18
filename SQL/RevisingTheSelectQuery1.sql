@@ -38,3 +38,16 @@ WHERE MOD(ID, 2) = 0;
 
 SELECT count(city) - count(distinct city)
 FROM station;
+
+# Exercise 9
+
+SELECT city c, length(city) l
+FROM station
+ORDER BY l desc, c asc
+LIMIT 1;
+
+SELECT city c, length(city) l
+FROM station
+ORDER BY l asc, c asc
+LIMIT 1;
+
