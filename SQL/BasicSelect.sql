@@ -95,3 +95,9 @@ ORDER BY substr(name, LENGTH(name)-2, 3), id;
 # Exercise 18
 SELECT name from employee
 ORDER BY name;
+
+# Exercise 19
+
+SELECT name FROM Employee
+WHERE salary > 2000
+  AND months < 10;
