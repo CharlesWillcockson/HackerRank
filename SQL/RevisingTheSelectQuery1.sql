@@ -55,3 +55,8 @@ LIMIT 1;
 
 SELECT distinct city from station
 WHERE city LIKE 'A%' OR city LIKE 'E%' OR city LIKE 'I%' OR city LIKE 'O%' OR city LIKE 'U%';
+
+# Exercise 11
+
+SELECT distinct city from station
+WHERE city LIKE '%A' OR city LIKE '%E' OR city LIKE '%I' OR city LIKE '%O' OR city LIKE '%U';
