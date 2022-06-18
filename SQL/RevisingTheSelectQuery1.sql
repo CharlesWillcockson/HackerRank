@@ -28,3 +28,8 @@ WHERE countrycode = 'JPN';
 
 SELECT NAME FROM city
 WHERE countrycode = 'JPN';
+
+# Exercise 7
+
+SELECT DISTINCT CITY FROM station
+WHERE MOD(ID, 2) = 0;
