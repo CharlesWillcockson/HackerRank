@@ -33,3 +33,8 @@ WHERE countrycode = 'JPN';
 
 SELECT DISTINCT CITY FROM station
 WHERE MOD(ID, 2) = 0;
+
+# Exercise 8
+
+SELECT count(city) - count(distinct city)
+FROM station;
