@@ -13,3 +13,8 @@ WHERE countrycode = 'USA'
 # Exercise 3
 
 SELECT * FROM city;
+
+# Exercise 4
+
+SELECT * FROM city
+WHERE ID = 1661;
