@@ -91,3 +91,7 @@ WHERE NOT (city LIKE 'A%' OR city LIKE 'E%' OR city LIKE 'I%' OR city LIKE 'O%' 
 SELECT name FROM students
 WHERE Marks > 75
 ORDER BY substr(name, LENGTH(name)-2, 3), id;
+
+# Exercise 18
+SELECT name from employee
+ORDER BY name;
