@@ -18,3 +18,8 @@ SELECT * FROM city;
 
 SELECT * FROM city
 WHERE ID = 1661;
+
+# Exercise 5
+
+SELECT * FROM city
+WHERE countrycode = 'JPN';
