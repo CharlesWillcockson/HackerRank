@@ -23,3 +23,8 @@ WHERE ID = 1661;
 
 SELECT * FROM city
 WHERE countrycode = 'JPN';
+
+# Exercise 6
+
+SELECT NAME FROM city
+WHERE countrycode = 'JPN';
