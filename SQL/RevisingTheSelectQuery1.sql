@@ -10,3 +10,6 @@ SELECT NAME FROM city
 WHERE countrycode = 'USA'
   AND population > 120000;
 
+# Exercise 3
+
+SELECT * FROM city;
