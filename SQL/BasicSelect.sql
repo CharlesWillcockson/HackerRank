@@ -101,3 +101,7 @@ ORDER BY name;
 SELECT name FROM Employee
 WHERE salary > 2000
   AND months < 10;
+
+--   Exercise 20
+
+Select city, state FROM station;
