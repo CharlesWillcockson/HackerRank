@@ -16,3 +16,7 @@ WHERE District = 'California';
 -- Exercise 4
 
 SELECT  ROUND(avg(population), 0) from city;
+
+-- Exercise 5
+
+select sum(population) from city where countrycode='JPN';
