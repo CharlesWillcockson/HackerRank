@@ -12,3 +12,7 @@ WHERE district = 'California';
 
 SELECT avg(population) from city
 WHERE District = 'California';
+
+-- Exercise 4
+
+SELECT  ROUND(avg(population), 0) from city;
