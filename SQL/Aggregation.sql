@@ -7,3 +7,8 @@ WHERE population > 100000;
 
 SELECT sum(population) from city
 WHERE district = 'California';
+
+-- Exercise 3
+
+SELECT avg(population) from city
+WHERE District = 'California';
