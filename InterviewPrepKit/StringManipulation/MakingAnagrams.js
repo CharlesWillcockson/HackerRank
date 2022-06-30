@@ -54,7 +54,7 @@ function makeAnagram(a, b) {
             }
         }
         return ((a.length - aCount) + bCount);
-    }
+
 }
 
 function main() {
